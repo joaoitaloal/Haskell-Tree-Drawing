@@ -6,7 +6,7 @@ A implementação, feita em Haskell, pode ser encontrada em ./main.hs, ela cont�
 
 Adicionalmente, este repositório contém, na pasta ./interface, uma implementação de uma interface gráfica que desenha de fato as árvores calculadas na seção 3.4.7 do livro, também em Haskell, utilizando a biblioteca h-raylib. O desenho gráfico não era parte da cadeira portanto o código não está tão bem explicado quanto o resto.
 
-Por último, a pasta ./c contém uma implementação em c++, usando ponteiros, que utilizei para reescrever o código Oz de forma que eu entendesse melhor, e a pásta ./oz contém o próprio algoritmo do livro.
+Por último, a pasta ./c contém uma implementação em c++, usando ponteiros, que utilizei para reescrever o código Oz de forma que eu entendesse melhor, e a pasta ./oz contém o próprio algoritmo do livro.
 
 ## Rodando a interface
 
@@ -15,8 +15,8 @@ Para compilar e rodar a interface é necessário ter o GHC e o cabal-installer i
 Tendo tudo instalado, entre na pasta interface e compile o programa:
 
 ```bash
-cd interface &&
-cabal update &&
+cd interface
+cabal update
 cabal build
 ```
 
