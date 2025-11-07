@@ -17,7 +17,7 @@ radius = scale/4.0
 
 -- Calcular as dimensões da janela baseado nos nós mais distantes da origem
 getScreenDimensions :: [(String, Int, Int)] -> (Int, Int)
-getScreenDimensions treelist = mapTwo (+ floor (radius+scale)) (getMaxXandY treelist)
+getScreenDimensions treelist = mapTwo (+ floor scale) (getMaxXandY treelist)
     where
         mapTwo :: (a -> b) -> (a, a) -> (b, b)
         mapTwo f (x,y) = (f x, f y)
